@@ -1,0 +1,8 @@
+---
+layout: default
+img: springImage.jpg
+category: Services
+title: Resilient and Powerful <br /> Designed to Last
+description: |
+---
+  Most companies create with the ideals of having to replace machining products rapidly over a 1 - 2 year timeframe. The SA-1024 Screen is designed to withstand the amount of work you need out of it, ranging anywhere from 3 - 5 years of consitant use. Here at SA Concepts we build tools for you to use, not just to sell to you.

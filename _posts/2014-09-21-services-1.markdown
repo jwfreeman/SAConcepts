@@ -1,8 +1,8 @@
 ---
 layout: default
-img: ipad.png
+img: holePattern.png
 category: Services
-title: Death to the Stock Photo:<br>Special Thanks
+title: Helping Navigate Logistics with <br />New Stronger Products
 description: |
 ---
-  A special thanks to [Death to the Stock Photo](http://join.deathtothestockphoto.com/) for providing the photographs that you see in this template.  Visit their website to become a member!
+  Through a variety of testing and months of use with a number of indendent companies, SA Concepts has delivered on a number of contracts providing companies with a new product that has a life span 3 times that of other comperable products without sacrificing an ounce of efficiency.
