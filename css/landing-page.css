@@ -26,12 +26,36 @@ h6 {
     font-weight: 400;
 }
 
+.lead2 {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: right;
+}
+
 .intro-header {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
     background: url(../img/Fullblack.png) no-repeat center center;
+    background-size: cover;
+}
+
+.intro-product {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 20px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/productHeader.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.intro-contact {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 20px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/contactHeader.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -103,8 +127,19 @@ h6 {
     margin-bottom: 30px;
 }
 
+.section-heading-2 {
+    margin-bottom: 30px;
+    text-align: right;
+}
+
 .section-heading-spacer {
     float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.section-heading-spacer2 {
+    float: right;
     width: 200px;
     border-top: 3px solid #e7e7e7;
 }
@@ -197,6 +232,79 @@ p.copyright {
     border-radius: 5px;
 }
 
+.headerButton:hover {
+    background-color: white;
+}
+
+.aboutButton {
+    width: 100px;
+    height: 30px;
+    background-color: #0062ff;
+    text-align: center;
+    position: relative;
+    left: 43%;
+    margin-bottom: 30px;
+    margin-top: -15px;
+    border-radius: 5px;
+    box-shadow: 2.5px 4px rgba(0,0,0,0.2);
+
+}
+
+.postButtonLeft {
+    width: 100px;
+    height: 30px;
+    background-color: #0062ff;
+    text-align: center;
+    position: relative;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 2.5px 4px rgba(0,0,0,0.2);
+
+}
+
+.postButtonRight {
+    width: 100px;
+    height: 30px;
+    background-color: #0062ff;
+    text-align: center;
+    position: relative;
+    float: right;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 2.5px 4px rgba(0,0,0,0.2);
+
+}
+
+
+
+.locationButton {
+    width: 200px;
+    height: 30px;
+    background-color: #0062ff;
+    text-align: center;
+    position: relative;
+    left: 39%;
+    margin-bottom: 30px;
+    margin-top: 5px;
+    border-radius: 5px;
+    box-shadow: 2.5px 4px rgba(0,0,0,0.2);
+
+}
+.postButtonLeft:hover { 
+    background-color: black;
+}
+.locationButton:hover {
+    background-color: black;
+}
+
+.locationLink {
+    color:white;
+    text-decoration: none;
+}
+.aboutButton:hover {
+    background-color: #000;
+}
+
 .headerLink {
     color: white;
     text-decoration: none;
@@ -205,4 +313,61 @@ p.copyright {
 .headerLink:hover {
     color: black;
     text-decoration: none;
+}
+
+.aboutLink {
+    color:white;
+    text-decoration: none;
+}
+.aboutLink:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.productMessage {
+    position: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.productMessage > h1 {
+    font-size: 4em;
+}
+/* set for potential header image on Product/about us page */
+.productHeaderImage {
+}
+
+.aboutImages {
+    width: 25%;
+    padding-top: 10%;
+}
+
+.page-spacer {
+    border-bottom: 1px solid black;
+    padding-top: 3%;
+}
+
+.background-grey {
+    background-color: rgba(0,0,0,0.05);
+}
+
+#location {
+    padding-top: 2%;
+}
+
+#googleImage {
+    width: 10%;
+}
+
+/* Product Page */
+
+.productHeader {
+    text-align: center;
+}
+
+/* Product image controllers  */
+
+.product-image1 {
+    width: 50%;
+    position: relative;
 }

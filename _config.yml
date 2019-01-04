@@ -25,13 +25,11 @@ permalink: pretty
 # ----------------------- #
 
 social:
-  - title: facebook
-    url: '#'
-    fa-icon: facebook
+
   - title: linkedin
-    url: '#'
+    url: 'https://www.linkedin.com/in/glenn-clark-b6984663/'
     fa-icon: linkedin
   - title: email
-    url: '#'
+    url: '/contact'
     fa-icon: envelope
   

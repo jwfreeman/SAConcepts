@@ -1,4 +1,4 @@
-<section id="services">
+<section id="service">
 <!-- Page Content -->
 {% for post in site.posts reversed %}
   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
@@ -13,6 +13,9 @@
                     <div class="clearfix"></div>
                     <h2 class="section-heading">{{ post.title }}</h2>
                     <div class="lead">{{ post.content }}</div>
+                    <div class="postButtonLeft">
+                        <p style="padding-top: 5px;"><a href="{{ post.link }}" class="aboutLink">{{ post.button }}</a> </p>
+                    </div>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
                     <img class="img-responsive" src="img/services/{{ post.img }}" alt="">
@@ -32,13 +35,16 @@
 
             <div class="row">
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <hr class="section-heading-spacer">
+                    <hr class="section-heading-spacer2">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">{{ post.title }}</h2>
-                    <div class="lead">{{ post.content }}</div>
+                    <h2 class="section-heading-2">{{ post.title }}</h2>
+                    <div class="lead2">{{ post.content }}</div>
+                    <!--<div class="postButtonRight">
+                        <p style="padding-top: 5px;"><a href="{{ post.link }}" class="aboutLink">{{ post.button }}</a> </p>
+                    </div>-->
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                  <img class="img-responsive" src="img/services/{{ post.img }}" alt="">
+                  <img class="img-responsive" style="margin-top: 50px; width: 1500px;" src="img/services/{{ post.img }}" alt="">
                 </div>
             </div>
 
