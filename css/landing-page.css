@@ -41,12 +41,21 @@ h6 {
     background-size: cover;
 }
 
-.intro-product {
+.intro-about {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 20px;
     text-align: center;
     color: #f8f8f8;
     background: url(../img/productHeader.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.intro-product {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 20px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/productHeaderImg.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -204,17 +213,24 @@ p.copyright {
 
 /** Added custom code **/
 
-.aboutIcon {
-    width: 64px;
-
+.disclaimers {
+    color: rgba(0,0,0,0.5)
 }
 
+.aboutIcon {
+    width: 64px;
+}
+
+.spacerBox {
+    height: 50px;
+}
 .navLogo {
     width: 10%;
     float: left;
     padding-top: 1.5%;
     padding-right: 1%;
 }
+
 
 .productImage {
     width: 80%;
@@ -297,6 +313,10 @@ p.copyright {
     background-color: black;
 }
 
+.contactHeader {
+    text-align: none;
+}
+
 .locationLink {
     color:white;
     text-decoration: none;
@@ -324,18 +344,61 @@ p.copyright {
     text-decoration: none;
 }
 
-.productMessage {
+.aboutMessage {
     position: center;
     padding-top: 10%;
     padding-bottom: 10%;
 }
 
-.productMessage > h1 {
+.aboutMessage > h1 {
+    font-size: 4em;
+}
+
+.product-message {
+    position: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+
+}
+
+.product-message > h1 {
     font-size: 4em;
 }
 /* set for potential header image on Product/about us page */
 .productHeaderImage {
 }
+
+.productHeaders {
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+    padding-bottom: 10px;
+}
+
+.productHeaders > p {
+    float: left;
+}
+
+.productDescriptions {
+    padding-top: 20px;
+}
+
+/* Product Images */
+
+.productImage1 {
+    width: 60%;
+}
+
+.productImage2 {
+    width: 60%;
+}
+
+.productImage3 {
+    width: 60%;
+}
+
+.productImage4 {
+    width: 60%;
+}
+
 
 .aboutImages {
     width: 25%;
@@ -370,4 +433,82 @@ p.copyright {
 .product-image1 {
     width: 50%;
     position: relative;
+}
+
+
+/* iphone 8 plus media rules */
+
+@media only screen and (max-width: 450px ) {
+    .navLogo {
+        margin-left: 5px;
+    }
+
+    .navbar-brand { 
+        margin-left: -15px;
+        margin-top: -3px;
+    }
+
+    .productImage {
+        margin-left: 25px;
+    }
+
+    .intro-message {
+        margin-top: -20px;
+    }
+
+    .headerButton {
+        left: 35%;
+        margin-top: 25px;
+    }
+    
+    .aboutButton {
+        left: 35%;
+    }
+
+    .postButtonLeft {
+        left: 35%;
+    }
+
+    .section-heading {
+        text-align: center;
+    }
+
+    .section-heading-2 {
+        text-align: center;
+    }
+    
+    .lead {
+        text-align: center;
+    }
+    .lead2 {
+        text-align: center;
+    }
+
+    .contactOptions {
+        text-align: center;
+    }
+
+    .section-heading-spacer {
+        float: none;
+    }
+    .section-heading-spacer2 {
+        float: none;
+    }
+
+    .banner-social-buttons {
+        text-align: center;
+        margin-left: 30%;
+    }
+
+    .contactHeader {
+        text-align: center;
+    }
+
+    .page-spacer {
+        display: none;
+    }
+    
+    .locationButton {
+        left: 20%;
+    }
 }
