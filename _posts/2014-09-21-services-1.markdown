@@ -2,9 +2,9 @@
 layout: default
 img: sideImage1.png
 category: Services
-title: Helping Navigate Logistics with <br />New Stronger Products
+title: Helping Navigate Logistics with <br />New, Stronger Products
 description: |
 button: Order Now
 link: '/contact' 
 ---
-  Through a variety of testing and months of use with a number of indendent companies, SA Concepts has delivered on a number of contracts providing companies a large selection of different sized screens. Sizes offered are: <strong> .069 , .079 , and .077 </strong> all crafted in 300 series stainless steel.
+  Through a variety of testing and months of use with independent companies, SA Concepts has delivered on a number of contracts providing companies a large selection of different sized screens. Sizes offered are: <strong> .069 , .077 , and .079 </strong> all crafted in 300 series stainless steel.

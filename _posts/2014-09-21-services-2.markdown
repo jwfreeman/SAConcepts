@@ -7,4 +7,4 @@ description: |
 button: not sure yet
 link: '#' 
 ---
-  Our blades are used to machine a number of car parts for a variety of companies, improving the production rate up to 50% compared to other products.
+  Our blades are used to machine car parts for a variety of companies, improving the production rate up to 50% compared to other products.
