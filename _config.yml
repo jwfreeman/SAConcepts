@@ -31,6 +31,6 @@ social:
     url: 'https://www.linkedin.com/in/glenn-clark-b6984663/'
     fa-icon: linkedin
   - title: email
-    url: '/contact'
+    url: 'mailto:sales@saconceptsllc.com'
     fa-icon: envelope
   

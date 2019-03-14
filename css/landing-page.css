@@ -249,6 +249,15 @@ p.copyright {
     border-radius: 5px;
 }
 
+.headerTagline {
+    margin-top: 16px;
+    font-size: 1em;
+
+}
+
+
+
+
 .headerButton:hover {
     background-color: white;
 }
@@ -300,7 +309,7 @@ p.copyright {
     background-color: #0062ff;
     text-align: center;
     position: relative;
-    left: 37.5%;
+    left: 35%;
     margin-bottom: 30px;
     margin-top: 5px;
     border-radius: 5px;
@@ -512,4 +521,11 @@ p.copyright {
     .locationButton {
         left: 20%;
     }
+    
+    .headerTagline {
+        font-size: .7em;
+        margin-top: 17px;
+    }
 }
+
+
